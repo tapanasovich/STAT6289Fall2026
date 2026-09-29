@@ -1,0 +1,4 @@
+{
+  "name": "STAT 6289 - Old R Environment",
+  "image": "rocker/r-ver:4.0.5"
+}
