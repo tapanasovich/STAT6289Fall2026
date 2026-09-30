@@ -4,5 +4,5 @@
   "features": {
     "ghcr.io/devcontainers/features/git:1": {}
   },
-  "postCreateCommand": "Rscript .devcontainer/install-packages.R"
+  "postCreateCommand": "Rscript -e 'install.packages(\"renv\", repos=\"https://cloud.r-project.org\"); renv::restore(prompt=FALSE)'"
 }
